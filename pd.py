@@ -14,7 +14,7 @@ Protokol Decoder(srd.Decoder) classının içinde olmak zorundadır,classda sır
 Listeler:
  CmdRC:Bilinen sık kullanılan RC fonksiyonlarının adlandırılması için kullanılır.
  ConstMaskRegAddr:Rc işleminin maskeleme olup olmadığını kontrol etmek için kullanılan register listesi
- ConstRegAddr:Genel register adres listesi bura ile maskeleme registerleri aslında bir bütündür bir tarafta olan diğer tarafta olamaz.
+ ConstRegAddr:Genel register adres listesi buradaki ile maskeleme registerleri aslında bir bütündür bir tarafta olan diğer tarafta olamaz.
 Mantık:
  Writeraw dan sonra Readraw gelirse bu ReadRc dir Writeraw gelirse WriteRc dir.
  ReadRc yapılan adrese WriteRc yapılıyorsa yapılan işlem türü Mask işlemi olabilir.
